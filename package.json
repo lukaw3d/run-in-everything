@@ -8,6 +8,7 @@
     "firefox": "playwright test --browser firefox",
     "chromium": "playwright test --browser chromium",
     "safari": "playwright test --browser webkit",
+    "test": "yarn nodejs; yarn chromium; yarn firefox; yarn safari"
   },
   "dependencies": {
     "@playwright/test": "^1.17.1"
