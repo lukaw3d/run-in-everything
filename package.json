@@ -5,6 +5,7 @@
   "scripts": {
     "postinstall": "yarn playwright install",
     "nodejs": "node node.mjs",
+    "firefox": "playwright test --browser firefox",
     "chromium": "playwright test --browser chromium",
   },
   "dependencies": {
